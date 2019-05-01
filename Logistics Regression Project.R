@@ -1,4 +1,4 @@
-# Read in online copy of the data
+# Read in online copy of the data 
 titanic<-read.table("http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.txt", sep=",", header=TRUE)
 
 head(titanic)
